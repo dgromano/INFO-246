@@ -1,0 +1,51 @@
+{
+  "items": [
+    {
+      "@context": "https://schema.org",
+      "@type": "CreativeWork",
+      "id": "1",
+      "name": "Guitar",
+      "description": "Musical instrument for playing songs"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "CreativeWork",
+      "id": "2",
+      "name": "Paint Set",
+      "description": "Set of paint colors and brushes for painting"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "CreativeWork",
+      "id": "3",
+      "name": "Cookbook",
+      "description": "Book with recipes for cooking"
+    }
+  ],
+  "users": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "id": "1",
+      "name": "user 4",
+      "description": "The paint set is great for my art projects",
+      "itemId": "2"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "id": "2",
+      "name": "user 5",
+      "description": "The guitar is my favorite musical instrument!",
+      "itemId": "1"
+    }
+  ],
+  "collection": {
+    "@context": "https://schema.org/",
+    "@type": "Collection",
+    "name": "danielromano's API",
+    "creator": "danielromano",
+    "about": "A collection of items that I added were Cookbook, Paint Set, and, Guitar. I then added two users who have matching ids with the Guitar and Paint Set. Lastly, I gave those users a description of the item they are connected to.",
+    "url": "https://www.danielromano.com"
+  }
+}
